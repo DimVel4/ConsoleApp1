@@ -8,10 +8,10 @@ namespace ConsoleApp1
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main(string[] args) 
         {
             Foo<int,string> foo = new Foo<int,string>(3);
-            foo.SampleMethod("fffff");
+            foo.SampleMethod("fffff"); 
 
             Console.ReadKey();
         }
